@@ -46,7 +46,7 @@ const Chats: React.FC = () => {
 
         {/* <IonSegment value="Chats">
           <IonSegmentButton value="camera">
-            <IonIcon ios={camera} md = {camera}></IonIcon>
+            <IonIcon id="Copied-BYAR" ios={camera} md = {camera}></IonIcon>
           </IonSegmentButton>
           <IonSegmentButton value="Chats">
             <IonLabel>Chats</IonLabel>
