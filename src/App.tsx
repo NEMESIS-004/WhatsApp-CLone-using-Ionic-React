@@ -1,5 +1,5 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
+import { IonApp, IonButton, IonButtons, IonHeader, IonIcon, IonRouterOutlet, IonTitle, IonToolbar, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 
@@ -32,11 +32,13 @@ import '@ionic/react/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { search, ellipsisVertical } from 'ionicons/icons';
 
 setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
+    
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/home">

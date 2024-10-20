@@ -1,2 +1,109 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+:root{
+    /** success **/
+  --ion-color-success: #128c7e;
+  --ion-color-success-rgb: 45, 211, 111;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #28ba62;
+  --ion-color-success-tint: #42d77d;
+}
+
+p ion-icon {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+ion-fab-button {
+  --background: #17ef5b;
+  
+}
+
+ion-tab-bar{
+  --background-color: #000000;
+}
+
+ion-searchbar{ 
+  --background: rgb(48, 48, 48) !important;
+  .searchbar-input-container{       
+        
+      .searchbar-input{
+          
+          border-radius: 20px;
+      }
+      
+      
+  }
+  
+}
+
+.stories{
+
+  margin-left: 1%;
+  button{
+    width: 100%;
+  }
+  /* ion-item{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  } */
+  ion-label{
+    margin-left:1%;
+  }
+}
+
+.update{
+  margin-top: 1%;
+  margin-left: 1.5%;
+  margin-bottom: 1%;
+  
+}
+.editbuttons{
+  margin-bottom: 70px;
+
+}
+
+.communities{
+  margin-top: 1%;
+  margin-left: 1%;
+  /* height: 70%; */
+  ion-button{
+    width: 100%;
+    --ripple-color: #4a4a4a !important ;
+  }
+  ion-item{
+    height: 200%;
+    width: 100%;
+    /* margin-top: 1%;
+    margin-bottom: 1%; */
+  }
+  ion-label{
+    margin-left: 1%;
+  }
+  ion-icon{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #088221;
+  }
+}
+
+.calls{
+  margin-left: 1%;
+  margin-top: 1%;
+  button{
+    margin-top: 1%;
+    width: 100%;
+  }
+  ion-label{
+    margin-left: 2%;
+  }
+  ion-icon{
+    color: #0f9f3f;
+    
+  }
+  ion-button{
+    fill: clear;
+  }
+}
+
